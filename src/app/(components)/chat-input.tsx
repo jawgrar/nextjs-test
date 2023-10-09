@@ -117,7 +117,7 @@ export default function BasicTextFields() {
                 </Button>
             </Box>
             <Box>
-                <pre>Test local env: {process.env.TEST_ENDPOINT ?? 'Oops! not fetched.'}</pre>
+                <pre>Test local env: {process.env.TEST_ENDPOINT ?? 'Oops! not fetched v2.'}</pre>
             </Box>
         </ThemeProvider>
     );
